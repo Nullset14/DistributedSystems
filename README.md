@@ -12,6 +12,8 @@
 
 # Simple Distributed Hash Table(Dht)
 
+* **Server and Ports** - The app would open one server socket that listens on 10000. 5 AVDs are used to simulate a distributed system setting. The redirection ports are 11108, 11112, 11116, 11120, and 11124.  
+
 * **Features** - ID space partioning, Ring-based routing and Node joins. Keys were generated using SHA-1 hash.
 
 # Simple Dynamo
@@ -21,6 +23,8 @@
   * Failures are temporary
   * Every Node can know every other node
   
+* **Server and Ports** - The app would open one server socket that listens on 10000. 5 AVDs are used to simulate a distributed system setting. The redirection ports are 11108, 11112, 11116, 11120, and 11124.   
+ 
 * **Features** - Partioning, Replication and Failure Handling using Chain replication. 
 
 ## Authors
