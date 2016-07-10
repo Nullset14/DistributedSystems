@@ -10,6 +10,19 @@
 
 * **Implementation** - We should implement a decentralized algorithm to handle failures correctly. This means that we should not implement a centralized algorithm. This also means that we should not implement any variation of a centralized algorithm that randomly picks a central node as this result in killing the AVD which was selected as the sequencer. [*ISIS Algorithm*](https://courses.engr.illinois.edu/cs425/fa2013/L7.fa13.ppt) has been chosen to meet the criteria of the requirements.
 
+# Simple Distributed Hash Table(Dht)
+
+* **Features** - ID space partioning, Ring-based routing and Node joins. Keys were generated using SHA-1 hash.
+
+# Simple Dynamo
+
+* **Assumptions** 
+  * Atmost one node failure at a give time
+  * Failures are temporary
+  * Every Node can know every other node
+  
+* **Features** - Partioning, Replication and Failure Handling using Chain replication. 
+
 ## Authors
 
 * [**Steve Ko**](https://nsr.cse.buffalo.edu/?page_id=272) - *Initial author*
